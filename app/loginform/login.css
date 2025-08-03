@@ -24,7 +24,7 @@ body {
   flex-direction: column;
 
 
-  background-image: url('bg.png'); 
+  background-image: url('bg.png'); /*change*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
