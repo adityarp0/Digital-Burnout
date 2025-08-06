@@ -42,12 +42,15 @@
     }
 
     .logo img {
-      height: 60px;
-      width: 55px;
+      height: 65px;
+      width: 65px;
       object-fit: contain;
+      margin-top: 6px;
+      margin-left: 5px;
     }
 
-    .logocontent {
+  .logocontent 
+  {
   font-size: 36px;
   font-weight: 800;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -59,7 +62,8 @@
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   animation: fadeIn 1.5s ease-in-out;
   transition: transform 0.3s ease;
-  margin-left: 10px;
+  margin-left: 0px;
+   cursor: pointer;
 }
 
 .logocontent:hover {
@@ -139,6 +143,7 @@ input[type="password"] {
   outline: none;
   font-size: 1rem;
   transition: border 0.3s;
+  
   
 }
 
